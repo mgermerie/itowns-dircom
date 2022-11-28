@@ -1,0 +1,40 @@
+#banner {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+
+	height: 30px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+#itowns-logo {
+	height: 200%;
+	filter: drop-shadow(0 0 .1px white);
+}
+#ign-logo {
+	height: 100%;
+	margin-right: 25px;
+	margin-top: 2px;
+}
+
+.bubble {
+	background-color: #fff;
+	border-radius: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
+	padding: 10px 15px;
+	box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+}
+
+.pointer {
+	height: 12px;
+	width: 12px;
+	background-color: #fff;
+	transform: translate(-50%, -50%) rotate(45deg);
+	position: relative;
+	left: 35%;
+}
